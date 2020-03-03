@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+
+@import '~bootstrap/scss/bootstrap.scss';
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    font-family: 'Roboto' ,sans-serif;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+.font-family-serif {
+    font-family: 'Merriweather', serif;
+}
+
+.primary-gradient {
+    background: linear-gradient(101.15deg, #F56A1C 0%, #F5431C 110.65%);
+}
+
+.color-primary {
+    color: #F56A1C;
+}
+
+.SectionPretitle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #000;
+    letter-spacing: 0.025rem;
+}
+
+.SectionTitle {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #000;
+    letter-spacing: 0.025rem;
+}
+
+.section-cta {
+    margin-top: 30px;
+    border-radius: 2rem;
+    color: #fff;
+    padding: 1rem 2.4rem;
+    font-weight: bold;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.15);
+}

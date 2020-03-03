@@ -1,0 +1,50 @@
+.Header {
+    padding: 1em 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+
+    .logo {
+        color: #fff;
+        font-size: 2em;
+        font-family: 'Montserrat' sans-serif;
+        font-weight: 700;
+    }
+
+    .nav {
+        .nav-item {
+            color: #fff;
+            font-size: 1.3em;
+            text-decoration: none;
+            transition: all .3s ease;
+
+            &:hover {
+                color: #F56A1C;
+            }
+
+            & + .nav-item {
+                margin-left: 1.4em;
+            }
+
+            &.nav-button {
+                border-radius: 1.4em;
+                padding-left: 1.5em;
+                padding-right: 1.5em;
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+
+            &.outline-white {
+                border: solid 2px #fff;
+
+                &:hover {
+                    background-color: #fff;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
